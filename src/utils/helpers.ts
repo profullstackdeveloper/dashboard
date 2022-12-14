@@ -1,0 +1,1 @@
+export const reviews: string = "“User-friendly minimalistic interface. You need to enter several parameters, and the  program will calculate your data. Waiting for updates and new features. Recommend to  everyone, who cares about their health.”"
