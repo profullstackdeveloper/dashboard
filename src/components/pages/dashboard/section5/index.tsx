@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Section5(): JSX.Element {
     return (
-        <div className='w-full pl-[141px] pt-[254px]'>
+        <div className='w-full pl-[141px] pt-[254px]' id="application">
             <div className='w-[72px] h-[10px] bg-lightBlue'></div>
             <div className='flex'>
                 <div className='max-w-[823px]'>

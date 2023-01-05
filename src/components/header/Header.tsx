@@ -6,7 +6,7 @@ import LangButton from '../buttons/LangButton';
 export default function Header(): JSX.Element {
     return (
         <div className='w-full h-[136px] px-[71px] bg-white flex items-center justify-center'>
-            <img src='/images/logo.png' alt='logo' className='mr-[71px]' />
+            <img src='dashboard/images/logo.png' alt='logo' className='mr-[71px]' />
             <div className='w-full flex justify-between'>
                 <div className='flex max-w-[411px] w-full justify-between items-center'>
                     {

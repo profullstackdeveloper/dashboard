@@ -7,7 +7,11 @@ module.exports = {
         lightBlue: '#3683FC'
       },
       backgroundImage: {
-        'bg-2': 'url("../public/images/bg-2.png")'
+        'bg-2': 'url("../public/images/bg-2.png")',
+        'bg-footer': 'url("../public/images/footer.png")'
+      },
+      backgroundPosition: {
+        'position-1': '0px 375px'
       },
       keyframes: {
         carousel: {

@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/footer';
 import Header from '../components/header/Header';
 
 interface PropTypes {
@@ -12,9 +13,12 @@ export default function Layout({ children }: PropTypes): JSX.Element {
                 <Header></Header>
             </div>
             <div className='w-full h-full flex-grow flex-shrink overflow-y-auto overflow-x-hidden'>
-                {
-                    children
-                }
+                <div>
+                    {
+                        children
+                    }
+                </div>
+                <Footer></Footer>
             </div>
         </div>
     )

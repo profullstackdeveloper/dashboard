@@ -5,6 +5,8 @@ import Section3 from '../components/pages/dashboard/section3';
 import Section4 from '../components/pages/dashboard/section4';
 import Section5 from '../components/pages/dashboard/section5';
 import Section6 from '../components/pages/dashboard/section6';
+import Section7 from '../components/pages/dashboard/section7';
+import Section8 from '../components/pages/dashboard/section8';
 
 export default function Dashboard (): JSX.Element {
     return (
@@ -15,6 +17,8 @@ export default function Dashboard (): JSX.Element {
             <Section4></Section4>
             <Section5></Section5>
             <Section6></Section6>
+            <Section7></Section7>
+            <Section8></Section8>
         </div>
     )
 }

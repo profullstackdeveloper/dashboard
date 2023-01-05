@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Section4(): JSX.Element {
     return (
-        <div className='w-full border-dashed border border-[#3683FC]/20 bg-[#F2F3F4] flex flex-col items-center justify-center'>
+        <div className='w-full border-dashed border border-[#3683FC]/20 bg-[#F2F3F4] flex flex-col items-center justify-center' id="mission">
             <div className='text-[48px] leading-[62.5px] mt-[90px]'>
                 Our <span className='text-[#3683FC]'>Mission</span>
             </div>

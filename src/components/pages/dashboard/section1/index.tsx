@@ -4,7 +4,7 @@ import { ButtonTypes } from '../../../../utils/helpers';
 
 export default function Section1(): JSX.Element {
     return (
-        <div className='w-full flex justify-center items-center mt-[40px] mb-[227px]'>
+        <div className='w-full flex justify-center items-center mt-[40px] mb-[227px]' id="home">
             <div>
                 <div className='w-[72px] h-[10px] bg-[#3683FC] mb-[48px]'></div>
                 <div className='text-[48px] font-semibold mb-[31px]'>
@@ -17,7 +17,7 @@ export default function Section1(): JSX.Element {
                 </div>
                 <RoundButton content='Download App' shape={ButtonTypes.secondary}></RoundButton>
             </div>
-            <img src='/images/Group 4604.png' alt='phone' className='max-w-[904px] max-h-[678px] w-1/2'></img>
+            <img src='dashboard/images/Group 4604.png' alt='phone' className='max-w-[904px] max-h-[678px] w-1/2'></img>
         </div>
     )
 }

@@ -4,7 +4,7 @@ import { ButtonTypes } from '../../../../utils/helpers';
 
 export default function Section3(): JSX.Element {
     return (
-        <div className='w-full pl-[152px] pt-[96px] pr-[296px] pb-[150px]'>
+        <div className='w-full pl-[152px] pt-[96px] pr-[296px] pb-[150px]' id="whoweare">
             <div className='w-[72px] h-[10px] bg-[#3683FC]'></div>
             <div className='font-[500] text-[48px] leading-[62.5px] mt-[31px]'>
                 What is <span className='text-[#3683FC]'>Longevity InTime?</span>
