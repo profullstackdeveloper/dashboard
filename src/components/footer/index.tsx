@@ -131,7 +131,7 @@ export default function Footer(): JSX.Element {
                                 {
                                     navigations.map((item, index) => {
                                         return (
-                                            hash === item.link ? <a href={item.link} className='flex items-center mb-[12px]' key={index} onClick={() => setHash(item.link)}>
+                                            hash === item.link ? <a href={item.link} className='flex items-center mb-[12px]' key={index}>
                                                 <svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M0 2H18" stroke="#3683FC" stroke-width="4" />
                                                 </svg>
@@ -141,7 +141,7 @@ export default function Footer(): JSX.Element {
                                                     }
                                                 </div>
                                             </a>
-                                                : <a href={item.link} className='text-[24px] mb-[12px]  leading-[31.25px]' key={index} onClick={() => setHash(item.link)}>
+                                                : <a href={item.link} className='text-[24px] mb-[12px]  leading-[31.25px]' key={index}>
                                                     {
                                                         item.content
                                                     }
