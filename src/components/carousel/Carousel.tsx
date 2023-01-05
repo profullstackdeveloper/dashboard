@@ -24,11 +24,13 @@ export default function Carousel({ children }: PropTypes): JSX.Element {
     const [position, setPosition] = React.useState(0);
 
     const handleLeftClick = () => {
-        setPosition((position - 1) % children.length);
+        const value = position === 0 ? (children.length - 1) % children.length : (position - 1) % children.length;
+        setPosition(value);
     }
 
     const handleRightClick = () => {
-        setPosition((position + 1) % children.length);
+        const value = position === children.length - 1 ? 0 : (position + 1) % children.length;
+        setPosition(value);
     }
 
     React.useEffect(() => {
